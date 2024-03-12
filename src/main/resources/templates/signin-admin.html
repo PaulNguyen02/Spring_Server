@@ -86,8 +86,8 @@
 	 	document.getElementById('vid').play();
         $(document).ready(function () {
             $('form.login100-form').submit(function (event) {
-                /*var isCaptchaVerified = $('#captchaVerified').val();
-                if (isCaptchaVerified !== 'true') {
+                var isCaptchaVerified = $('#captchaVerified').val();
+                if (isCaptchaVerified !== 'false') {
                     alert('Vui lòng xác thực CAPTCHA trước khi đăng nhập.');
                     event.preventDefault(); // Ngăn chặn gửi form nếu CAPTCHA chưa được xác thực
                 }
@@ -96,7 +96,7 @@
             // Hàm gọi khi CAPTCHA được xác thực thành công
             window.verifyCaptcha = function () {
                 $('#captchaVerified').val('true');
-            };*/
+            };
         });
     </script>
 
